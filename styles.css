@@ -1,0 +1,49 @@
+body{
+  text-align:center;
+  background-color:#B2A4FF;
+}
+h1{
+  font-size:60px;
+  font-family: 'Cookie', cursive;;
+}
+.container{
+  margin-top:50px;
+   text-align: center;
+}
+.watch{
+  border:5px solid #231955;
+  font-size:50px;
+  font-family: 'Signika', sans-serif;
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  display:flex;  /*Items display in a row (the flex-direction property's default is row ).*/  justify-content: center;
+  align-items:center;
+  margin: auto;
+  margin-bottom:40px;
+}
+.countdown{
+  justify-content: center;
+  align-items:center;
+}
+.buttons{
+  width:300px;
+  height:30px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+}
+button{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+ font-family: 'Signika', sans-serif;
+  margin-right:30px;
+  border:3px solid #231955;
+  color:black;
+}
+button:hover{
+  background-color:black;
+  color:white;
+  cursor:pointer;
+}
